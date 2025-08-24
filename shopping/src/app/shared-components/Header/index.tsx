@@ -27,10 +27,10 @@ export default function Header() {
               <Link href="/"><span className="font-semibold text-2xl cursor-pointer text-black"> Exclusive </span></Link>
             </div>
             <ul className="hidden md:flex gap-12 list-none m-0 p-0">
-              <li><Link href="/" className="no-underline hover:underline">Home</Link></li>
+              <li><Link href="/homePage" className="no-underline hover:underline">Home</Link></li>
               <li> <Link href="/contact" className="no-underline hover:underline">Contact</Link></li>
               <li><Link href="/about" className="no-underline hover:underline">About</Link></li>
-              <li><Link href="/signupPage" className="no-underline hover:underline">Sign Up</Link></li>
+              <li><Link href="/signup" className="no-underline hover:underline">Sign Up</Link></li>
             </ul>
             <div className="flex items-center gap-6">
               <div className="relative">

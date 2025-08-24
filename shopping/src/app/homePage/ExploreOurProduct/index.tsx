@@ -10,7 +10,7 @@ export default function FeaturedProducts() {
       price: 100,
       rating: 3,
       reviewCount: 35,
-      image: "/images/dog fod.png",
+      image: "/images/dogfood.png",
     },
     {
       id: "10",
@@ -42,7 +42,7 @@ export default function FeaturedProducts() {
       price: 960,
       rating: 5,
       reviewCount: 65,
-      image: "/images/car.png",
+      image: "/images/kidscar.png",
       isNew: true,
       colors: ["bg-red-500", "bg-black"],
     },
@@ -52,7 +52,7 @@ export default function FeaturedProducts() {
       price: 1160,
       rating: 4,
       reviewCount: 35,
-      image: "/images/shoe.png",
+      image: "/images/soccer shoes.jpg",
       colors: ["bg-yellow-400", "bg-black"],
     },
     {

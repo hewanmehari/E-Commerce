@@ -79,7 +79,7 @@ export default function ProductCard({
           />
         </div>
 
-        <button className="absolute bottom-0 left-0 right-0 bg-black text-white py-2 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <button className="absolute bottom-0 left-0 right-0 hover:bg-[#db4444] hover:text-white transition-colors py-2 text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-100">
           Add To Cart
         </button>
       </div>

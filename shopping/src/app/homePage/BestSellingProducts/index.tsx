@@ -10,7 +10,7 @@ export default function BestSelling() {
       originalPrice: 360,
       rating: 5,
       reviewCount: 65,
-      image: "/images/jacket.png",
+      image: "/images/hoodie.png",
     },
     {
       id: "6",
@@ -28,7 +28,7 @@ export default function BestSelling() {
       originalPrice: 170,
       rating: 4.5,
       reviewCount: 65,
-      image: "/images/rgb.png",
+      image: "/images/cpu cooler.webp",
     },
     {
       id: "8",
@@ -36,7 +36,7 @@ export default function BestSelling() {
       price: 360,
       rating: 5,
       reviewCount: 65,
-      image: "/images/bookshelf.png",
+      image: "/images/shelf.png",
     }
   ];
 
@@ -49,7 +49,7 @@ export default function BestSelling() {
       
       <div className="flex items-center justify-between mb-10">
         <h2 className="text-4xl font-semibold leading-tight text-black">Best Selling Products</h2>
-        <button className="bg-[#db4444] text-white font-medium px-12 py-4 rounded hover:bg-red-600 transition-colors">
+        <button className="bg-[#db4444] text-white font-medium px-12 py-4 rounded transition-colors">
           View All
         </button>
       </div>

@@ -59,7 +59,7 @@ export default function Footer() {
             <p className="text-xs text-gray-300">Save $3 with App New User Only</p>
             <div className="flex gap-2">
               <img
-                src="/images/Qr Code.png"
+                src="/images/qr-code.png"
                 alt="QR Code"
                 className="w-20 h-20 bg-white rounded"
               />

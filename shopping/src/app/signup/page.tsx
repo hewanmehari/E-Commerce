@@ -79,7 +79,7 @@ export default function SignUp() {
               <span className="text-gray-500 font-normal text-base">
                 Already have account?{" "}
                 <Link
-                  href="/loginPage"
+                  href="/login"
                   className="text-gray-700 font-medium underline hover:no-underline"
                 >
                   Log In

@@ -2,25 +2,25 @@
 
 import Header from "./shared-components/Header";
 import Footer from "./shared-components/Footer";
-import HeroSection from "./homePage/BrowseByCategory";
 import FlashSales from "./homePage/FlashSales";
-import Categories from "./homePage/Categories";
 import BestSelling from "./homePage/BestSellingProducts";
-import PromoBanner from "./homePage/Exclusive";
 import FeaturedProducts from "./homePage/ExploreOurProduct";
 import NewArrival from "./homePage/NewArrival";
 import Services from "./homePage/Services";
 import { ArrowUp } from "lucide-react";
+import Exclusive from "./homePage/Exclusive";
+import BrowseByCategory from "./homePage/BrowseByCategory";
+import Categories from "./homePage/Categories";
 
 export default function Index() {
   return (
     <div>
       <Header />
-        <HeroSection />
+        <Exclusive />
         <FlashSales />
-        <Categories />
+        <BrowseByCategory />
         <BestSelling />
-        <PromoBanner />
+        <Categories/>
         <FeaturedProducts />
         <NewArrival/>
         <Services />

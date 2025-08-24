@@ -2,7 +2,7 @@
 
 import { ChevronRight, ArrowRight } from "lucide-react";
 
-export default function HeroSection() {
+export default function Exclusive() {
   const heroSlide = {
     title: "iPhone 14 Series",
     subtitle: "Up to 10% off Voucher",

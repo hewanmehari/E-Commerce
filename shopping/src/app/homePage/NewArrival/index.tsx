@@ -21,16 +21,16 @@ export default function NewArrival() {
           <div className="relative z-10 text-white">
             <h3 className="text-2xl font-semibold mb-2">PlayStation 5</h3>
             <p className="text-sm mb-4">Black and White version of the PS5<br/>coming out on sale.</p>
-            <button className="bg-white text-black px-5 py-2 rounded font-medium hover:bg-[#db4444] hover:text-white transition-colors">
-              Shop Now
-            </button>
+           <button className="underline underline-offset-4 font-medium hover:text-[#db4444] transition-colors">
+                Shop Now
+              </button>
           </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="relative h-60 bg-black rounded-lg overflow-hidden flex items-end p-8 md:col-span-2">
             <img
-              src="/images/collection.png"
+              src="/images/hatwoman.png"
               alt="Women's Collections"
               className="absolute inset-0 w-full h-full object-cover opacity-70"
             />
